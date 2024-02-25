@@ -1,0 +1,57 @@
+[
+    {
+      "name": "Daily Moisturizer",
+      "price": 12.00,
+      "stock": 20,
+      "imgUrl": "/images/1.png",
+      "id": 1,
+      "benefits": ["Hydrates skin", "Improves skin texture"],
+      "application": "Apply a small amount to clean skin and massage until fully absorbed. Use daily, morning and night.",
+      "ingredients": ["Water", "Glycerin", "Jojoba oil", "Shea butter"],
+      "description": "Keep your skin moisturized all day with our lightweight daily moisturizer. Formulated with hydrating ingredients like Jojoba oil and Shea butter, it absorbs quickly into the skin, leaving it soft and supple."
+    },
+    {
+        "name": "Apple Extract Cleanser",
+        "price": 25.00,
+        "stock": 15,
+        "imgUrl": "/images/2.png",
+        "id": 2,
+        "benefits": ["Gently removes impurities", "Leaves skin feeling refreshed"],
+        "application": "Apply a small amount to damp skin, massage in circular motions, then rinse thoroughly with warm water. Use morning and night.",
+        "ingredients": ["Apple extract", "Aloe vera", "Green tea extract", "Cucumber extract"],
+        "description": "Cleanse your skin with the refreshing power of apples. Our Apple Extract Cleanser gently removes dirt, oil, and makeup without stripping the skin of its natural moisture. Infused with nourishing ingredients like Aloe vera and Green tea extract, it leaves your skin feeling clean and revitalized."
+    },
+    {
+        "name": "Hyaluronic 0.5 body Serum",
+        "price": 60.00,
+        "stock": 15,
+        "imgUrl": "/images/5.png",
+        "id": 3,
+        "benefits": ["Deeply hydrates and plumps skin", "Improves skin elasticity"],
+        "application": "Apply to clean, dry skin and massage until fully absorbed. Use daily, focusing on areas prone to dryness or loss of elasticity.",
+        "ingredients": ["Hyaluronic acid", "Vitamin E", "Argan oil", "Squalane"],
+        "description": "Achieve smooth, hydrated skin from head to toe with our Hyaluronic 0.5 Body Serum. Infused with Hyaluronic acid and nourishing oils like Argan oil and Squalane, it deeply hydrates and plumps the skin, improving elasticity and leaving it looking firm and youthful."
+    },
+    {
+        "name": "All Day SPF",
+        "price": 50.00,
+        "stock": 15,
+        "imgUrl": "/images/3.png",
+        "id": 4,
+        "benefits": ["Provides broad-spectrum sun protection", "Helps prevent premature aging"],
+        "application": "Apply liberally to face and body 15 minutes before sun exposure. Reapply at least every 2 hours or after swimming, sweating, or towel drying.",
+        "ingredients": ["Octocrylene", "Avobenzone", "Octisalate", "Vitamin C"],
+        "description": "Protect your skin from harmful UV rays with our All Day SPF sunscreen. Formulated with broad-spectrum protection and enriched with Vitamin C, it helps shield the skin from sun damage while preventing premature aging. Lightweight and non-greasy, it's perfect for everyday use."
+    },
+    {
+        "name": "Green Tea Body Wash",
+        "price": 50.00,
+        "stock": 20,
+        "imgUrl": "/images/4.png",
+        "id": 5,
+        "benefits": ["Gently cleanses and purifies the skin", "Leaves skin feeling refreshed and revitalized"],
+        "application": "Apply to wet skin, lather, and rinse thoroughly. Use daily for best results.",
+        "ingredients": ["Green tea extract", "Aloe vera", "Coconut oil", "Vitamin E"],
+        "description": "Indulge in the refreshing scent of green tea while cleansing your skin with our Green Tea Body Wash. Formulated with Green tea extract and nourishing ingredients like Aloe vera and Coconut oil, it gently removes impurities, leaving your skin feeling clean, soft, and revitalized."
+    }
+]
