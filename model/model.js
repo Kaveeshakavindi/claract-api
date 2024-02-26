@@ -9,11 +9,6 @@ const productSchema = new Schema({
     price: Number,
     stock: Number,
     imgUrl: String,
-    id: Number,
-    benifits: Array,
-    application: String,
-    description: String,
-    ingredients: Array,
     
   },{versionKey: false, collection: 'claractcollection'});
 
