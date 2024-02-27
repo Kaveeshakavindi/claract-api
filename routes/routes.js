@@ -127,4 +127,29 @@ router.delete('/cart', async (req, res) => {
   });
   
 
+  //delete one item
+  router.delete('/cart/:itemId', async (req, res) => {
+    const itemId = req.params.itemId;
+  
+    try {
+      // Find the cart document
+      const cart = await Cart.findOne({});
+  
+      // Find the index of the item to remove
+      const itemIndex = cart.items.findIndex(item => item.id === itemId);
+  
+      // If the item is found, remove it from the cart
+      if (itemIndex !== -1) {
+        cart.items.splice(itemIndex, 1); // Remove the item
+        await cart.save(); // Save the updated cart document
+        res.status(204).end(); // Respond with no content (204 No Content)
+      } else {
+        res.status(404).json({ message: "Item not found in the cart" });
+      }
+    } catch (err) {
+      res.status(500).json({ message: err.message });
+    }
+  });
+  
+
 module.exports = router;
